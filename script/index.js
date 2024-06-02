@@ -331,17 +331,17 @@ setTimeout(function(){
 
 
 
-document.getElementById("high").addEventListener("click",higher)
+// document.getElementById("high").addEventListener("click",higher)
 
 
-function higher(){
+// function higher(){
 
-items.sort(function(a,b){
-    return b.imDbRating - a.imDbRating
-})
+// items.sort(function(a,b){
+//     return b.imDbRating - a.imDbRating
+// })
 
-movie(items)
-}
+// movie(items)
+// }
 
 
 
@@ -351,15 +351,15 @@ movie(items)
 // document.getElementById("low").addEventListener("click",lower)
 
 
-function lower(){
+// function lower(){
 
-// items.sort(function(a,b){
+//  items.sort(function(a,b){
 //     return a.imDbRating - b.imDbRating
 // })
 
-movie(items)
-console.log(items);
-}
+// movie(items)
+// console.log(items);
+// }
 
 
 
